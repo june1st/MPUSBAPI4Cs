@@ -60,7 +60,7 @@ namespace test
         String pLength,
         UInt32 dwMilliseconds);
 
-
+        
         [System.Runtime.InteropServices.DllImportAttribute("mpusbapi.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern bool _MPUSBClose(int handle);
 
